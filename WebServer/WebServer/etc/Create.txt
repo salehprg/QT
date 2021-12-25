@@ -1,0 +1,14 @@
+CREATE TABLE Actuators (
+    id  INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    data_type TEXT,
+    data_type_feedback TEXT,
+    value TEXT,
+    group_address TEXT,
+    group_address_feedback TEXT,
+    icon_code TEXT,
+    color TEXT,
+    show_border BOOLEAN,
+    guid TEXT
+
+);
